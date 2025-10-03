@@ -1,0 +1,51 @@
+{
+  "name": "AsteroidSimulation",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Name of the simulation"
+    },
+    "asteroid_diameter": {
+      "type": "number",
+      "description": "Diameter in meters"
+    },
+    "velocity": {
+      "type": "number",
+      "description": "Impact velocity in km/s"
+    },
+    "angle": {
+      "type": "number",
+      "description": "Impact angle in degrees"
+    },
+    "target_location": {
+      "type": "string",
+      "description": "Target location on Earth"
+    },
+    "impact_energy": {
+      "type": "number",
+      "description": "Impact energy in megatons TNT"
+    },
+    "crater_diameter": {
+      "type": "number",
+      "description": "Estimated crater diameter in km"
+    },
+    "damage_radius": {
+      "type": "number",
+      "description": "Damage radius in km"
+    },
+    "casualties_estimate": {
+      "type": "string",
+      "description": "Estimated casualties"
+    },
+    "analysis": {
+      "type": "string",
+      "description": "AI-generated impact analysis"
+    }
+  },
+  "required": [
+    "name",
+    "asteroid_diameter",
+    "velocity"
+  ]
+}

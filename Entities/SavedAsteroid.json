@@ -1,0 +1,46 @@
+{
+  "name": "SavedAsteroid",
+  "type": "object",
+  "properties": {
+    "nasa_id": {
+      "type": "string",
+      "description": "NASA asteroid ID"
+    },
+    "name": {
+      "type": "string",
+      "description": "Asteroid name"
+    },
+    "diameter_min": {
+      "type": "number",
+      "description": "Minimum diameter in meters"
+    },
+    "diameter_max": {
+      "type": "number",
+      "description": "Maximum diameter in meters"
+    },
+    "velocity": {
+      "type": "number",
+      "description": "Relative velocity in km/s"
+    },
+    "miss_distance": {
+      "type": "number",
+      "description": "Miss distance in km"
+    },
+    "is_hazardous": {
+      "type": "boolean",
+      "description": "Is potentially hazardous"
+    },
+    "close_approach_date": {
+      "type": "string",
+      "description": "Date of closest approach"
+    },
+    "notes": {
+      "type": "string",
+      "description": "User notes"
+    }
+  },
+  "required": [
+    "nasa_id",
+    "name"
+  ]
+}
